@@ -1,5 +1,7 @@
+python-3.11-slim # (Optional: if runtime.txt still isn't working, try putting it here, but typically it should be in runtime.txt)
 streamlit
-tensorflow
+tensorflow==2.15.0 # Pin to a specific, compatible TensorFlow version
+keras==2.15.0      # Pin Keras to match TensorFlow
 scikit-learn
 pandas
 matplotlib
