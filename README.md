@@ -30,6 +30,6 @@ This project includes multiple trained machine learning and deep learning models
 -macOS/Linux: source venv/bin/activate
 
 3.Install dependencies:
-```bash
+
 pip install -r requirements
-```
+
